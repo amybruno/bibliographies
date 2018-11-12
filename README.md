@@ -12,6 +12,7 @@ In Amy's files (`disslit.bib`, `ppl-lpl.bib`, `movement.bib`)
 - One author: `<first-6-letters-last-name><last-2-digits-year>`
 - Two authors: `<first-6-letters-last-name-first-author><first-6-letters-last-name-second-author><last-2-digits-year>`
 - More authors: `<first-6-letters-last-name-first-author>etal<last-2-digits-year>`
+
 Followed by a 6-character keyword if there are duplicates.
 
 In Tim's files (`mg-induction.bib`): `<first-author-last-name>.<first-author-first-initial>:<year>`, followed by `a`, `b`, and so on if there are duplicates.
