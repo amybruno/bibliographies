@@ -1,0 +1,57 @@
+@unpublished{radulmansin17,
+    title={{Metaprob}: a simple, extensible language for probabilistic programming and meta-programming},
+    author={Alexey Radul and Vikash K. Mansinghka},
+    year=2017
+}
+
+@article{saadetal19,
+author     = {Saad, Feras A. and Cusumano-Towner, Marco F. and Schaechtle, Ulrich and Rinard, Martin C. and Mansinghka, Vikash K.},
+title      = {Bayesian synthesis of probabilistic programs for automatic data modeling},
+journal    = {Proc. ACM Program. Lang, Symposium on Principles of Programming Languages},
+volume     = {2},
+number     = {POPL},
+articleno  = {37},
+numpages   = {29},
+pages      = {37:1-37:29},
+issue_date = {January 2019},
+year       = {2019},
+publisher  = {ACM},
+keywords   = {program synthesis, Bayesian inference, denotational semantics, model discovery},
+note       = {Forthcoming.},
+abstract   = {We present new techniques for automatically constructing probabilistic programs for data analysis, interpretation, and prediction. These techniques work with probabilistic domain-specific data modeling languages that capture key properties of a broad class of data generating processes, using Bayesian inference to synthesize probabilistic programs in these modeling languages given observed data. We provide a precise formulation of Bayesian synthesis for automatic data modeling that identifies sufficient conditions for the resulting synthesis procedure to be sound. We also derive a general class of synthesis algorithms for domain-specific languages specified by probabilistic context-free grammars and establish the soundness of our approach for these languages. We apply the techniques to automatically synthesize probabilistic programs for time series data and multivariate tabular data. We show how to analyze the structure of the synthesized programs to compute, for key qualitative properties of interest, the probability that the underlying data generating process exhibits each of these properties. Second, we translate probabilistic programs in the domain-specific language into probabilistic programs in Venture, a general-purpose probabilistic programming system. The translated Venture programs are then executed to obtain predictions of new time series data and new multivariate data records. Experimental results show that our techniques can accurately infer qualitative structure in multiple real-world data sets and outperform standard data analysis methods in forecasting and predicting new data.},
+}
+
+@incollection{kulkar15,
+title          = {Picture: A probabilistic programming language for scene perception},
+author         = {Tejas Kulkarni and Pushmeet Kohli and Joshua B. Tenenbaum and Vikash K. Mansinghka},
+year           = {2015},
+booktitle      = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+pages          = {4390--4399},
+url_paper      = {https://mrkulk.github.io/www_cvpr15/1999.pdf},
+url_supplement = {https://mrkulk.github.io/www_cvpr15/1999-supp.zip},
+abstract       = {Recent progress on probabilistic modeling and statistical learning, coupled with the availability of large training datasets, has led to remarkable progress in computer vision. Generative probabilistic models, or “analysis-by-synthesis” approaches, can capture rich scene structure but have been less widely applied than their discriminative counterparts, as they often require considerable problem-specific engineering in modeling and inference, and inference is typically seen as requiring slow, hypothesize-and-test Monte Carlo methods. Here we present Picture, a probabilistic programming language for scene understanding that allows researchers to express complex generative vision models, while automatically solving them using fast general-purpose inference machinery. Picture provides a stochastic scene language that can express generative models for arbitrary 2D/3D scenes, as well as a hierarchy of representation layers for comparing scene hypotheses with observed images by matching not simply pixels, but also more abstract features (e.g., contours, deep neural network activations). Inference can flexibly integrate advanced Monte Carlo strategies with fast bottomup data-driven methods. Thus both representations and inference strategies can build directly on progress in discriminatively trained systems to make generative vision more robust and efficient. We use Picture to write programs for 3D face analysis, 3D human pose estimation, and 3D object reconstruction – each competitive with specially engineered baselines.},
+}
+
+@inproceedings{eisnerblatz07,
+  title={Program transformations for optimization of parsing algorithms and other weighted logic programs},
+  author={Eisner, Jason and Blatz, John},
+  booktitle={Proceedings of the 11th Conference on Formal Grammar},
+  pages={45--85},
+  year={2007}
+}
+
+@incollection{eisnerfilard11dyna,
+  title={Dyna: Extending datalog for modern AI},
+  author={Eisner, Jason and Filardo, Nathaniel W},
+  booktitle={Datalog Reloaded},
+  pages={181--220},
+  year={2011},
+  publisher={Springer}
+}
+
+@book{deransetal12,
+  title={Prolog: the standard: reference manual},
+  author={Deransart, Pierre and Ed-Dbali, AbdelAli and Cervoni, Laurent},
+  year={2012},
+  publisher={Springer Science \& Business Media}
+}
